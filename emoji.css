@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: aqua;
+  font-size: 50px;
+}
+body{
+  background-color: darkslateblue;
+}
+
+#submitButton,#searchBar{
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+h3{
+  color: aqua;
+}
+p{
+  color:lightblue;
+}
